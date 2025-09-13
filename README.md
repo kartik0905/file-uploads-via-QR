@@ -114,7 +114,7 @@ npm start
 
 ## 📸 Demo  
 
-![Screenshot](assets/Screenshot 2025-09-13 at 6.25.44 PM 1.png) 
+![Screenshot](/assets/Screenshot%202025-09-13%20at%206.25.44 PM%201.png) 
 
 ---
 
