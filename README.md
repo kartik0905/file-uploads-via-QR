@@ -63,19 +63,36 @@ Think of it as a **self-hosted AirDrop** that works on **any device**.
 
 ```
 FileDrop/
-│── server/              # Node.js + Express backend
-│   ├── routes/          # API routes
-│   ├── uploads/         # Temporary file storage
-│   ├── sockets/         # Socket.IO logic
-│   └── index.js         # Server entry point
-│
-│── client-dashboard/    # React frontend (laptop dashboard)
-│   └── src/
-│
-│── client-upload/       # Phone upload page (static HTML + JS)
-│   └── index.html
-│
-└── README.md
+├── .gitignore
+├── README.md
+├── assets
+    └── Screenshot 2025-09-13 at 6.25.44 PM 1.png
+├── client
+    ├── README.md
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   └── robots.txt
+    └── src
+    │   ├── App.css
+    │   ├── App.js
+    │   ├── App.test.js
+    │   ├── index.css
+    │   ├── index.js
+    │   ├── logo.svg
+    │   ├── reportWebVitals.js
+    │   └── setupTests.js
+└── server
+    ├── .gitignore
+    ├── index.js
+    ├── mobile-upload.html
+    ├── package-lock.json
+    └── package.json
 ```  
 
 ---
